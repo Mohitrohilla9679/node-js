@@ -9,7 +9,7 @@ const client= new Client({
 
 
 client.connect()
-const qr=select * from test_db`, customers";
+const qr=select * from test_db, customers;
 client.query(qr,(err,res)=> {
     console.log(err,res)
     client.end()
