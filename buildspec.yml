@@ -12,7 +12,7 @@ phases:
     commands:
       - echo Installing source NPM dependencies...
       - npm install
-      - npm install unit.js
+      - npm install index.js
   build:
     commands:
       - echo Build started on `date`
@@ -26,7 +26,7 @@ phases:
 # ExpressJS apps will need other artifact directories included (bin/*, public/*, routes/*, views/* etc).
 artifacts:
   files:
-    - index.js.js
+    - index.js
     - package.json
     - connect.js
     - buildspec.yml
