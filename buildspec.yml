@@ -30,3 +30,4 @@ artifacts:
     - package.json
     - connect.js
     - buildspec.yml
+    - package-lock.json
